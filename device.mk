@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
+    Snap
 
 # Calculator
 PRODUCT_PACKAGES += \
@@ -126,6 +126,13 @@ PRODUCT_PACKAGES += \
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/handheld_core_hardware.xml
+
+# prebuilt-apps
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt \
+    RetroMusic \
+    ViaBrowser \
+    QPGallery
 
 # Power
 PRODUCT_PACKAGES += \
