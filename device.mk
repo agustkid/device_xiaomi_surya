@@ -120,6 +120,13 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResTarget 
 
+# prebuilt-apps
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt \
+    RetroMusic \
+    ViaBrowser \
+    QPGallery
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.surya
