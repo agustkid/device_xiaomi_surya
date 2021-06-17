@@ -33,7 +33,10 @@ lib64/librefocus.so
 lib64/libqvrcamera_client.qti.so
 
 # Camera
+bin/cameraserver
+etc/init/cameraserver.rc
 lib/libcameraservice.so|3ef8e89a4ef8275b0f59afe57ca72af72eee1e20
+product/lib/vendor.qti.hardware.camera.device@1.0.so
 
 # CNE
 etc/cne/Nexus/ATT/ATT_profiles.xml
@@ -113,7 +116,7 @@ product/lib64/libdpmtcm.so
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk
 
 # DPM - from oneplus8 - qssi-user-11-RP1A.201005.001-2009051300-release-keys
-product/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
+product/lib64/libdpmframework.so|e53cb03e096fd6618cc0986e9699bed71ee59313
 
 # FM
 lib64/fm_helium.so
